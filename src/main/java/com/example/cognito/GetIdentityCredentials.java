@@ -55,7 +55,7 @@ public class GetIdentityCredentials {
     //snippet-start:[cognito.java2.GetIdentityCredentials.main]
     // Configuramos el identity id "us-east-1:9ced61d9-9ea6-4f27-a241-59914503bdfc" que pertenece al
     // Identity Pool llamado "pool-testing-1-application-Identity-Pool" y que en ese identity id tiene un rol
-    // que tiene permisos para usuarios no autenticados (y además el permiso para el método "GetCredentialsForIdentity"
+    // que tiene permisos para usuarios no autenticados (y además el permiso para el método "GetCredentialsForIdentity")
 
     public static void getCredsForIdentity(CognitoIdentityClient cognitoClient, String identityId) {
 

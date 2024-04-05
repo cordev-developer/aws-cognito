@@ -63,8 +63,6 @@ public class GetId {
 
             GetIdResponse response = cognitoClient.getId(request);
 
-//            PREGUNTAR SOPORTE QUE ES EL IDENTITY ID Y PORQUÉ EN EL MENÚ CUANDO PICO ME DESVIA AL MENÚ PRINCIPAL
-
             System.out.println("Identity ID " + response.identityId());
 
         } catch (CognitoIdentityProviderException e){

@@ -5,21 +5,29 @@ package com.example.cognito.srp;
 
 import com.example.cognito.srp.usecases.*;
 import software.amazon.awssdk.auth.credentials.EnvironmentVariableCredentialsProvider;
+import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
+import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.cognitoidentityprovider.CognitoIdentityProviderClient;
 import software.amazon.awssdk.services.cognitoidentityprovider.model.*;
 
 import java.util.Scanner;
 
 public class SRPDemo {
-        private static final String COGNITO_USERNAME = "test_user-auth-device-tracking";
-        private static final String COGNITO_PASSWORD = "changeme-0okm9IJN~";
+        private static final String COGNITO_USERNAME = "jcorral";
+        private static final String COGNITO_PASSWORD = "Jcorral_2023#";
         private static final String COGNITO_POOL_ID;
         private static final String COGNITO_USER_CLIENT_ID;
         private static final String COGNITO_ADMIN_CLIENT_ID;
         private static final String COGNITO_ADMIN_CLIENT_SECRET;
+
         private static final CognitoIdentityProviderClient cognitoClient = CognitoIdentityProviderClient.builder()
-                        .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
-                        .build();
+                .region(Region.US_EAST_1)
+                .credentialsProvider(ProfileCredentialsProvider.create())
+                .build();
+
+//        private static final CognitoIdentityProviderClient cognitoClient = CognitoIdentityProviderClient.builder()
+//                        .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
+//                        .build();
 
         static {
                 // Create user pool.

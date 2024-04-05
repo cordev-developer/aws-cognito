@@ -5,6 +5,7 @@
 
 package com.example.cognito;
 
+import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.cognitoidentityprovider.CognitoIdentityProviderClient;
@@ -60,6 +61,11 @@ public class AdminInitiateAuth {
                 .credentialsProvider(ProfileCredentialsProvider.create())
                 .build();
 
+//        CognitoIdentityProviderClient cognitoClient = CognitoIdentityProviderClient.builder()
+//                .region(Region.US_EAST_1)
+//                .credentialsProvider(() -> AwsBasicCredentials.create("accessKey", "secretKey"))
+//                .build();
+
         adminInitiateAuth(identityProviderClient, authFlow, clientId, userPoolId, userName, password);
     }
 
@@ -78,7 +84,7 @@ public class AdminInitiateAuth {
                 .userPoolId(userPoolId)
                 .authParameters(authParams)
                 .build();
-        identityProviderClient.adminInitiateAuth(req);
+//        identityProviderClient.adminInitiateAuth(req);
 
         AdminInitiateAuthResponse response = identityProviderClient.adminInitiateAuth(req);
         AuthenticationResultType result = response.authenticationResult();

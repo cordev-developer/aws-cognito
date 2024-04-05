@@ -81,7 +81,7 @@ public class CreateUser {
                     .build() ;
 
             AdminCreateUserResponse response = cognitoClient.adminCreateUser(userRequest);
-            System.out.println("User " + response.user().username() + "is created. Status: " + response.user().userStatus());
+            System.out.println("User " + response.user().username() + "  is created. Status: " + response.user().userStatus());
 
         } catch (CognitoIdentityProviderException e){
             System.err.println(e.awsErrorDetails().errorMessage());
