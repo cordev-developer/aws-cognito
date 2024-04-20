@@ -1,6 +1,6 @@
 # Trigger lambda pre-autenticación
 
-Ejemplo de trigger o desencadenador lambda preautenticación.
+Ejemplo de trigger o desencadenador lambda pre-autenticación.
 
 
 ## Tecnologías 
