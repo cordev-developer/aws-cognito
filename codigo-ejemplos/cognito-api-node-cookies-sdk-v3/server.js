@@ -46,8 +46,8 @@ app.use(cors(options));
 
 // Configurar las credenciales para el cliente de Cognito Identity Provider
 // const credentials = {
-//   accessKeyId: "AKIA37XTGD7BSERGZB5T",
-//   secretAccessKey: "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",
+//   accessKeyId: "tu_access_key_id",
+//   secretAccessKey: "tu_secret_access_key",
 // }
 
 // Creamos el cliente de Cognito Identity Provider en la región "us-east-1" (N. Virginia) 
