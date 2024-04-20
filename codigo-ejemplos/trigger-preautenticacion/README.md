@@ -1,4 +1,4 @@
-# Trigger lambda prerregistro con Cognito (Ejemplo 3)
+# Trigger lambda pre-autenticación
 
 Ejemplo de trigger o desencadenador lambda preautenticación.
 
