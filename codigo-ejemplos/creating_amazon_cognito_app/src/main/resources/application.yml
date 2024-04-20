@@ -1,0 +1,29 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          cognito:
+            #clientId: 6srsao3b9q3d4iu05f107av5a4
+            # Este clientId es para el PKCE
+            clientId: 2icjd6e91kkd52ndvutvcjurp6
+            # Para usar el PKCE tenemos que dejar en blanco el clientSecret
+            # por tanto, tiene que ser un user pool que no tenga client secret
+
+            #clientSecret: 8fd6ogsq7td7puouiooa8ng54iipu0uhchls828qs6q057uhmsf
+            clientSecret:
+            # Para usar el PKCE hay que descomentar esta linea de abajo
+            client-authentication-method: none
+
+            authorization-grant-type: authorization_code
+            scope: openid, email
+            redirect-uri: http://localhost:8080/login/oauth2/code/cognito
+            clientName: spring-boot-backend-cognito
+        provider:
+          cognito:
+            #issuerUri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_PC6T34IUK
+            # Este issuer es para el PKCE
+            issuerUri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_rZOwK7ypX
+logging:
+  level:
+    org.springframework.web.client.RestTemplate: DEBUG

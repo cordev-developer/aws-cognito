@@ -1,0 +1,21 @@
+node_modules/
+package-lock.json
+yarn.lock
+
+# Carpeta de archivos temporales o build
+build/
+dist/
+tmp/
+
+.env
+
+logs/
+
+# Archivos de configuración de desarrollo local
+config/local.json
+config/local.js
+
+# Foto código QR
+qr2.png
+
+

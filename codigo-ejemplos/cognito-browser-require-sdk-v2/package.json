@@ -1,0 +1,27 @@
+{
+  "name": "pruebas-cognito-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "dev:watch": "webpack --mode development --watch",
+    "start": "webpack serve"
+  },
+  "author": "jacorral",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.1.2",
+    "aws-sdk": "^2.6.1",
+    "webpack": "^5.75.0"
+  }
+}

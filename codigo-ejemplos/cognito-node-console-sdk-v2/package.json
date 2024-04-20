@@ -1,0 +1,20 @@
+{
+  "name": "cognito-node-console-sdk-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "dev": "nodemon ./entry.js",
+    "start": "node ./entry.js"
+  },
+  "author": "jacorral",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.1.2",
+    "aws-sdk": "^2.6.1",
+    "readline-sync": "^1.4.10"
+  }
+}

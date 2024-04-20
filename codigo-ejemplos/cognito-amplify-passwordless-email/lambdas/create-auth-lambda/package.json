@@ -1,0 +1,10 @@
+{
+  "name": "create-auth-lambda",
+  "version": "1",
+  "main": "createAuthChallenge.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.1580.0",
+    "crypto-secure-random-digit": "^1.0.10"
+  }
+}

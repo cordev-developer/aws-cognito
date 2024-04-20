@@ -1,0 +1,3 @@
+This project has been implemented by jcorral, who is the author of the final code. But it should also be mentioned that it is a derivative code that uses the amazon-cognito-identity-js package, released under Amazon Software License, owned by Amazon.com
+To see the original Amazon license you can visit this link:
+https://github.com/aws-amplify/amplify-js/blob/master/packages/amazon-cognito-identity-js/LICENSE.txt

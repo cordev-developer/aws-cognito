@@ -1,0 +1,26 @@
+{
+  "name": "cognito-browser-imports-sdk-v3-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "jcorral",
+  "license": "Apache 2.0",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.409.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.338.0",
+    "@aws-sdk/client-dynamodb": "^3.405.0",
+    "@aws-sdk/client-s3": "^3.405.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.405.0",
+    "dotenv": "^16.0.3",
+    "qrcode": "^1.5.3",
+    "sharp": "^0.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

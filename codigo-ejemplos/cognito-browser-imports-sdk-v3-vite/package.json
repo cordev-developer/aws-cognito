@@ -1,0 +1,21 @@
+{
+  "name": "cognito-browser-imports-sdk-v3-vite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",    
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.405.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.405.0",
+    "@aws-sdk/client-dynamodb": "^3.405.0",
+    "@aws-sdk/client-s3": "^3.405.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.405.0",
+    "qrcode": "^1.5.3"
+  }
+}

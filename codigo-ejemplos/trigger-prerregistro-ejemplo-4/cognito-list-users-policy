@@ -1,0 +1,11 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Action": "cognito-idp:ListUsers",
+            "Resource": "arn:aws:cognito-idp:us-east-1:<vuestro_Account_ID_eliminar_signos_mayor_y_menor>:userpool/us-east-1_jPgO89Mt5"
+        }
+    ]
+}

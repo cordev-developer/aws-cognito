@@ -1,0 +1,35 @@
+{
+  "name": "cognito-api-node-cookies-sdk-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "jcorral",
+  "license": "Apache 2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.405.0",
+    "@aws-sdk/client-dynamodb": "^3.427.0",
+    "@aws-sdk/client-s3": "^3.405.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.405.0",
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csrf-csrf": "^3.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt-middleware": "^1.0.3",
+    "jwks-rsa": "^3.0.1",
+    "jwt-decode": "^3.1.2",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

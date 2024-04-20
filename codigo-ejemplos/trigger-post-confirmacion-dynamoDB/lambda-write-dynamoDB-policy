@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "dynamodb:PutItem",
+            "Resource": "arn:aws:dynamodb:<vuestra_Region_y_quitar_signos_mayor_y_menor>:<vuestro_id_cuenta_y_quitar_signos_mayor_y_menor>:table/Usuarios"
+        }
+    ]
+}
+
+

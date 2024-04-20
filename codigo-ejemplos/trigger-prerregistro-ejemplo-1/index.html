@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triggers Lambda prerregistro, ejemplo 1</title>
+  </head>
+
+  <body>
+    <script src="./script/amazon-cognito-identity.min.js"></script>
+    <!-- Si queremos usar algun servicio del SDK de AWS (versión 2) tendriamos que cargarlo así: -->
+    <!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-2.6.10.min.js"></script> -->
+
+    <div>
+      <h1>Ejemplo 1 - Javascript prerregistro</h1>
+    </div>
+
+    <script type="text/javascript">
+      
+      //  EJEMPLO PARA REGISTRAR A UN USUARIO
+
+      var poolData = {
+        UserPoolId: "us-east-1_jPgO89Mt5",      // User Pool Id
+        ClientId: "15ninpkcokkg15t163fb0gsbbd", // App client Id
+      };
+
+      var userPool = new AmazonCognitoIdentity.CognitoUserPool(poolData);
+
+      var attributeList = [];
+
+      var dataEmail = {
+        Name: "email",
+        Value: "jgarcia@example.com",
+      };
+
+      var dataEmailDomain = {
+        Name: "custom:domain",
+        Value: "example.com",
+      };
+
+      var dataPhoneNumber = {
+        Name: "phone_number",
+        Value: "+34123456789",
+      };
+
+      var attributeEmail = new AmazonCognitoIdentity.CognitoUserAttribute(
+        dataEmail
+      );
+      
+      var attributePhoneNumber = new AmazonCognitoIdentity.CognitoUserAttribute(
+        dataPhoneNumber
+      );
+      
+      var attributeEmailDomain = new AmazonCognitoIdentity.CognitoUserAttribute(
+        dataEmailDomain
+      );
+
+      attributeList.push(attributeEmail);
+      attributeList.push(attributePhoneNumber);
+      attributeList.push(attributeEmailDomain);
+
+      userPool.signUp(
+        "jgarcia",          // username
+        "Jcorralf_1975#",   // password
+        attributeList,
+        null,
+        function (err, result) {
+          if (err) {
+            alert(err.message || JSON.stringify(err));
+            return;
+          }
+          let cognitoUser = result.user;
+          console.log("The new user name is " + cognitoUser.getUsername());
+        }
+      );
+    </script>
+  </body>
+</html>

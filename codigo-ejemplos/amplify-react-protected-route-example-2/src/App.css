@@ -1,0 +1,22 @@
+#root {
+  text-align: center;
+  margin: 1.2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.logued {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "define-auth-lambda",
+  "version": "1",
+  "main": "defineAuthChallenge.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.1580.0"
+  }
+}
