@@ -9,7 +9,7 @@ En la estructura del proyecto encontrarás dos carpetas:
 
 ---
 
-¿Estás interesado en conocer a fondo el mundo de la autenticación/autorización? Entonces este curso está diseñado especialmente para ti!!
+¿Estás interesado en conocer a fondo el mundo de la autenticación/autorización de aplicaciones? Entonces este curso está diseñado especialmente para ti!!
 
 
 ### Lo que aprenderás
@@ -26,9 +26,9 @@ En la estructura del proyecto encontrarás dos carpetas:
 
 ### ¿Hay requisitos para seguir correctamente el curso?
 
-- Sólo conocimientos básicos de programación en alguno de los lenguajes/librerías que se usan en el curso.
+- Conocimientos básicos de programación en alguno de los lenguajes/librerías que se usan en el curso.
 - Conocimientos básicos sobre criptografía.
-- Conocimientos básicos sobre los servicios de AWS, aunque en el curso se explica paso a paso todos los ejemplos.
+- Conocimientos básicos sobre los servicios de AWS, aunque en el curso se explica paso a paso en todos los ejemplos.
 
 ### ¿Para quién es este curso?
 
