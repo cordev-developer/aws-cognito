@@ -9,7 +9,7 @@ En la estructura del proyecto encontrarás dos carpetas:
 
 ---
 
-¿Estás interesado en conocer a fondo el mundo de la autenticación/autorización de aplicaciones? Entonces este curso está diseñado especialmente para ti!!
+¿ Estás interesado en conocer a fondo el mundo de la autenticación/autorización de aplicaciones ? Entonces este curso está diseñado especialmente para ti!!
 
 
 ### Lo que aprenderás
