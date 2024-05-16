@@ -16,7 +16,7 @@ En este ejemplo veremos cómo podemos cambiar algunos atributos o claims, scopes
 
 ## Referencias
 
-- [Guida desarrolladores Amazon Cognito](https://docs.aws.amazon.com/es_es/cognito/latest/developerguide/user-pool-lambda-pre-token-generation.html) - Información sobre los triggers lambda de pre-generación de tokens de identificación y acceso.
+- [Guia desarrolladores Amazon Cognito](https://docs.aws.amazon.com/es_es/cognito/latest/developerguide/user-pool-lambda-pre-token-generation.html) - Información sobre los triggers lambda de pre-generación de tokens de identificación y acceso.
 
 - [Artículo Blog AWS, sobre cómo personalizar tokens de acceso](https://aws.amazon.com/es/blogs/security/how-to-customize-access-tokens-in-amazon-cognito-user-pools/) - Artíuclo en inglés muy interesante sobre cómo podemos personalizar los tokens de acceso mediante un trigger lambda. También hay código de ejemplo.
 
