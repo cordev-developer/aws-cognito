@@ -11,8 +11,7 @@ Ejemplo 3 de trigger o desencadenador lambda de prerregistro (utilizando sintaxi
 ## Cómo ejecutar el código
 
 Para ejecutar el código, sólo debemos cargar el fichero de la función lambda ("index.mjs") y configurar correctamente el trigger lambda de Cognito (trigger prerregistro).
-En esta ocasión veremos una función lambda que comprueba la longitud en caracteres del nombre de usuario y si
-es menor que 5 se lanzará un error.
+En esta ocasión veremos una función lambda que comprueba la longitud en caracteres del nombre de usuario y si es menor que 5 se lanzará un error.
 
 
 ## Referencias
