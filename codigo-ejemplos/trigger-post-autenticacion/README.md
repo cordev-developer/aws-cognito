@@ -16,9 +16,11 @@ En este ejemplo veremos cómo podemos bloquear el acceso a un determinado client
 
 ## Referencias
 
-- [AWS SDK de Javascript versión 2](https://github.com/aws-amplify/amplify-js/tree/master/packages/amazon-cognito-identity-js) - Muy interesante el archivo Readme.md dónde se muestran muchos ejemplos.
+- [AWS SDK de Javascript versión 3](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/) - Guía inicio del SDK de Javascript versión 3 de AWS. Podremos ver cómo instalar módulos, configuración, referencias y mucho más.
 
-- [Guía desarrolladores documentación AWS SDK Javascript v2](https://docs.aws.amazon.com/es_es/sdk-for-javascript/v2/developer-guide/webpack.html) - Aquí se muestra cómo empezar con el SDK, cómo usar Webpack con ES6 o Node.js, etc.
+- [Guía AWS SDK Javascript v3 (parte de Cognito)](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-cognito-identity-provider) - Aquí tenemos una guía de las funciones que podemos usar de Cognito.
+
+- [Guía documentación AWS SDK Javascript v3, versión nueva (no está completa)](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/preview/client/cognito-identity-provider) - Es una versión nueva de la documentació oficial de la versión 3 del SDK de Javascript, pero OJO !! no está todavía terminada, por lo que no están incluidas todas las funcionalidades.
 
 
 
