@@ -1,6 +1,6 @@
 # Trigger lambda prerregistro con Cognito (Ejemplo 3)
 
-Ejemplo de trigger o desencadenador lambda preautenticación.
+Ejemplo de trigger o desencadenador lambda postautenticación.
 
 
 ## Tecnologías 
@@ -10,7 +10,7 @@ Ejemplo de trigger o desencadenador lambda preautenticación.
 
 ## Cómo ejecutar el código
 
-Para ejecutar el código, sólo debemos cargar el fichero de la función lambda ("index.mjs") y configurar correctamente el trigger lambda de Cognito (trigger preautenticación/signin).
+Para ejecutar el código, sólo debemos cargar el fichero de la función lambda ("index.mjs") y configurar correctamente el trigger lambda de Cognito (trigger post-autenticación).
 En este ejemplo veremos cómo podemos bloquear el acceso a un determinado cliente de aplicación (app client) especificando el app client id.
 
 
