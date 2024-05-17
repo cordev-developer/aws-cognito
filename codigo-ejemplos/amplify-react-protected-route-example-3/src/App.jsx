@@ -25,8 +25,11 @@ Amplify.configure(awsExports);
 // Configurar opciones adicionales de las cookies
 const cookieOptions = {
   domain: 'localhost', 
+  // 30 dias
   expires: 30, 
-  secure: true, 
+  // No hay que pasarle este parámetro ya que queda activado por defecto y no se puede cambiar
+  // secure: true,
+  // Este si puede ser lax/strict   
   sameSite: 'lax',
 };
 

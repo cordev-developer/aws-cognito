@@ -9,11 +9,13 @@ export const AdminPage = () => {
   const [isAdmin, setIsAdmin] = useState(false);
   let groups = [];
 
+  // Usamos el hook useAuthenticator para saber si el usuario está autenticado
   const { route } = useAuthenticator((context) => [context.route]);
 
 
   async function checkAuthUser() {
     try {
+      // Llamamos a la API fetchAuthSession para obtener el token de acceso y el token de identificación
       const { accessToken, idToken } = (await fetchAuthSession()).tokens ?? {};
       
       setAccesTokenIni(accessToken);

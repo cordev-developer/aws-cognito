@@ -51,7 +51,11 @@ Módulo UI React de Amplify:
 
 ## Referencias
 
-- [AWS Amplify Library for React](https://docs.amplify.aws/react/how-amplify-works) - Documentación oficial de AWS sobre Amplify para varias plataformas (React, Javascript, Next, Flutter, etc.), en nuestro caso usaremos React.
+- [AWS Amplify Library for React](https://docs.amplify.aws/gen1/react/how-amplify-works/) - Documentación oficial de AWS sobre Amplify para varias plataformas (React, Javascript, Next, Flutter, etc.), en nuestro caso usaremos React.
+
+- [AWS Amplify UI Library for React](https://ui.docs.amplify.aws/react/connected-components/authenticator) - Documentación oficial de AWS sobre la UI de Amplify para varias plataformas (React, Javascript, Next, Flutter, etc.), en nuestro caso usaremos React. En este caso configuraremos Amplify en nuestro proyecto para usar el componente 'Authenticator'.
+
+- [AWS Amplify Library for React, setup CLI](https://docs.amplify.aws/react/start/getting-started/installation) - Documentación oficial de AWS sobre Amplify para instalar la CLI de Amplify.
 
 - [Guía para desarrolladores de AWS Cognito](https://docs.aws.amazon.com/es_es/cognito/latest/developerguide/what-is-amazon-cognito.html) - Guía para desarrolladores Cognito.
 
