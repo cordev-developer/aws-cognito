@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import  awsExports from './aws-exports';
 import "@aws-amplify/ui-react/styles.css";
 import { Amplify } from 'aws-amplify';
@@ -35,11 +35,11 @@ const MyRoutes = () => {
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Authenticator.Provider>
           <MyRoutes />
       </Authenticator.Provider>
-    </Router>
+    </BrowserRouter>
   );
 }
 
