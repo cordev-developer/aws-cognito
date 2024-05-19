@@ -17,10 +17,10 @@ import { cognitoUserPoolsTokenProvider } from 'aws-amplify/auth/cognito';
 // Configurar opciones adicionales de las cookies
 const cookieOptions = {
   domain: 'localhost', 
-  // 30 dias
+  // 30 dias expiración cookies
   expires: 30, 
   secure: true,
-  // Este si puede ser lax/strict/none   
+  // Este parámetro puede ser lax/strict/none   
   sameSite: 'lax',
 };
 
