@@ -1,8 +1,6 @@
 import { useAuthenticator } from "@aws-amplify/ui-react";
 
 export function UserPage() {
-  const { route } = useAuthenticator((context) => [context.route]);
-  // console.log(route);
   
   return (
     <div>

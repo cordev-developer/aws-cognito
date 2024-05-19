@@ -55,17 +55,15 @@ export const ProtectedPage = () => {
               <button onClick={signOut}>Sign out</button>
 
               <div>
-                <ul>
-                  { isAdmin ? (
-                    <li>
-                      Eres un usuario del grupo 'admin'
-                    </li>
-                  ) : (
-                    <li>
-                      Eres un usuario del grupo 'user'
-                    </li>
-                  )}
-                </ul>             
+                { isAdmin ? (
+                  <h2>
+                    Eres un usuario del grupo 'admin'
+                  </h2>
+                ) : (
+                  <h2>
+                    Eres un usuario del grupo 'user'
+                  </h2>
+                )}
               </div>
               <hr />
             </main>

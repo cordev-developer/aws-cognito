@@ -44,7 +44,6 @@ export const AdminPage = () => {
   
   return(
     <>
-      <ul>
         { isAdmin ? (
           <h2>
             Eres un usuario del grupo 'admin'
@@ -54,7 +53,6 @@ export const AdminPage = () => {
             No estás autorizado !!
           </h2>
         )}
-      </ul>  
     </>
   )
 }
