@@ -32,7 +32,7 @@ const cookieOptions = {
 // cognitoUserPoolsTokenProvider.setKeyValueStorage(new CookieStorage());
 
 // Configuración personalizada de cookies
-cognitoUserPoolsTokenProvider.setKeyValueStorage(new CookieStorage(cookieOptions));
+// cognitoUserPoolsTokenProvider.setKeyValueStorage(new CookieStorage(cookieOptions));
 
 Amplify.configure(awsExports);
 
