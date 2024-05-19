@@ -8,6 +8,8 @@ import { Authenticator } from "@aws-amplify/ui-react";
 import { PublicPage } from "./pages/PublicPage";
 import { ProtectedPage } from "./pages/ProtectedPage";
 
+// En este ejemplo no configuramos cookies, por tanto los tokens se guardarán en el
+// localstorage del navegador (comportamiento por defecto)
 
 Amplify.configure(awsExports);
 
