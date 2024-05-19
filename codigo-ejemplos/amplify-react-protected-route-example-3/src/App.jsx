@@ -27,14 +27,13 @@ const cookieOptions = {
   domain: 'localhost', 
   // 30 dias expiración cookies
   expires: 30, 
-  // No hay que pasarle este parámetro ya que queda activado por defecto y no se puede cambiar
-  // secure: true,
-  // Este si puede ser lax/strict   
+  secure: true,
+  // Este si puede ser lax/strict/none   
   sameSite: 'lax',
 };
 
 
-// Configuración por defecto de cookies
+// Configuración por defecto de cookies (secure=true y no sameSate)
 // cognitoUserPoolsTokenProvider.setKeyValueStorage(new CookieStorage());
 
 // Configuración personalizada de cookies
