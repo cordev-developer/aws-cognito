@@ -34,6 +34,8 @@ const cookieOptions = {
 // Configuración personalizada de cookies
 // cognitoUserPoolsTokenProvider.setKeyValueStorage(new CookieStorage(cookieOptions));
 
+// Si no configuramos cookies los tokens se guardan en el localStorage
+
 Amplify.configure(awsExports);
 
 
