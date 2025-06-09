@@ -1,6 +1,6 @@
 # Repositorio del Curso [AWS Cognito Avanzado: Autenticación con Amazon Web Services](https://cursos.frogamesformacion.com/courses/aws-cognito-avanzado)
 
-# Actualizado en Abril de 2024
+# Actualizado en Junio de 2025
 
 En la estructura del proyecto encontrarás dos carpetas:
 
