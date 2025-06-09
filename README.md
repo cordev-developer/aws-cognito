@@ -6,6 +6,7 @@ En la estructura del proyecto encontrarás dos carpetas:
 
 - codigo-ejemplos: el código de los ejemplos del curso
 - documentacion: las slides o diapositivas de las clases de teoría
+- Diagramas: los diagramas de los flujos de OAuth 2.0 con herramienta https://app.diagrams.net/
 
 ---
 
